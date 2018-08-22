@@ -30,14 +30,14 @@ If you see an error talking about remote sites, please follow these steps:
 4. In the Remote Site Edit dialog, enter any name for the Remote Site Name, and then paste the URL you copied in step #1 into the Remote Site URL field.
 > **Note: If you have set up a Custom Domain/My Domain, you will want to add this in here as a Remote Site as well.**
 5. Make sure the Active checkbox is enabled, and press the Save button.
-6. If you are using the paid version, and plan to manage picklists in your sandbox(es) from this Org, then please also add a Remote Site entry for: https://test.salesforce.com/
+6. If you are using the Pro version, and plan to manage picklists in your sandbox(es) from this Org, then please also add a Remote Site entry for: https://test.salesforce.com/
 7. Now go back to configure Universal Picklists.  Go to: Setup → App Setup → Installed Packages and click on the Configure link next to the Universal Picklists app.
 
 You should see the Universal Picklist Manager setup page, alerting you that you have not yet set up any picklists.  
 
 ## Adding a Universal Picklist to Manage
 
-Picklist values for the same or similar picklists in different objects (and different Orgs in the paid version) can be managed from one single location.  If you have reached the setup page in the previous section, you can now follow these simple steps to set up a universal picklist.
+Picklist values for the same or similar picklists in different objects (and different Orgs in the Pro version) can be managed from one single location.  If you have reached the setup page in the previous section, you can now follow these simple steps to set up a universal picklist.
 
 1. Click the Add Picklist button.
 2. From the Edit page, enter the Title of the picklist.  To manage multiple picklists as one Universal Picklist, give both of the records the same title.
