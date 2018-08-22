@@ -35,3 +35,24 @@ If you see an error talking about remote sites, please follow these steps:
 
 You should see the Universal Picklist Manager setup page, alerting you that you have not yet set up any picklists.  
 
+### Adding a Universal Picklist to Manage
+
+Picklist values for the same or similar picklists in different objects (and different Orgs in the paid version) can be managed from one single location.  If you have reached the setup page in the previous section, you can now follow these simple steps to set up a universal picklist.
+
+1. Click the Add Picklist button.
+2. From the Edit page, enter the Title of the picklist.  To manage multiple picklists as one Universal Picklist, give both of the records the same title.
+> **This title is critically important, as it determines the uniqueness of the picklist.  In other words, if you add multiple picklists with this same title, the system will treat them all as the same universal picklist.**
+3. Select the desired Object.
+4. Select the desired Picklist to manage.  This is the picklist that will be updated when you sync.
+5. Optional.  Select a “Parent” picklist.  This is for situations where the Picklist you are managing has a controlling parent picklist (the Picklist field would be the dependent picklist).  You want to be able to make sure you can indicate which parent value fits the picklist value.
+6. Optional.  Select a “Grand Parent” picklist.  This is for situations where the Picklist you are managing has a controlling picklist as a parent, that in turn has a controlling picklist, controlling it!  (Any more than that, and you’re on your own!)
+7. If you have record types in this object, optionally click the “Add to All Record Types?” checkbox.  This will add the value to the record types that exist for this object.  Note: Only 10 Record Types per Object are supported.
+8. Click the “Make Master” checkbox to make this picklist the default one, which will be used when synchronizing the Universal Picklist you named.
+9. Click the Save button, which will return you to the list of Universal Picklists. Add as many records as you want (a maximum of five unique titles in the Standard version).
+10. After adding the desired number of picklists, you will see a list of unique Titles, and potentially multiple Objects where the same Universal Picklist is being used.  Click on the Title of the picklist you want to manage (not the “Edit” link).
+11.	You can now do several things:
+    a. Click the Add New button in order to add another option to the list.
+    b. Edit one of the existing entries directly in line.
+    c. Sort the existing entries in alphabetical order by clicking the Sort entries in Alphabetical Order.
+12. When finished, press the Save and Sync Fields button to save the values listed on the page to the picklists on all of the objects set up.  You will get an email when the synchronization is done.  With the Pro version, it will do this in all the Orgs you have set up, in addition to the current Org.
+
